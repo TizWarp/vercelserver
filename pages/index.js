@@ -7,8 +7,8 @@ export default function Home() {
       <Head>
         <button onclick="button()">Fuck</button>
         <script>
-          function button(){
-            alert("Fuck You");
+          function button() {
+            alert("Fuck You")
           }; 
         </script>
         <title>Create Next App</title>
