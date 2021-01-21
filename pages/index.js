@@ -5,7 +5,11 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <button>Fuck</button>
+        <button onclick="button()" color="color:red">Fuck</button>
+        <script>
+          function button() {
+            alert("fuck you");
+          };
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
