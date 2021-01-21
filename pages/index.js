@@ -7,7 +7,7 @@ export default function Home() {
       <Head>
         <button onclick="button()">Fuck</button>
         <script>
-          function button() {
+          function button(){
             alert("Fuck You");
           }; 
         </script>
